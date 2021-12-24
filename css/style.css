@@ -1,0 +1,1487 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#ceo {
+    width: 100%;
+
+}
+
+#gore {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #8c6d41;
+}
+
+#logo {
+    width: 100px;
+    height: 50px;
+}
+
+#logo h1 {
+    color: yellow;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+#nav {
+    width: 680px;
+    height: 40px;
+}
+
+#trazii {
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.slikakorpa {
+    width: 100px
+}
+
+#korpatab {
+    text-align: center;
+    margin: 20px auto;
+    width: 70%
+}
+
+#ubacik {
+    margin: 0px auto;
+    display: block;
+    padding: 5px;
+    border: 1px solid #d55900;
+    color: #d55900;
+}
+
+#ubacivanje {
+    text-align: center
+}
+
+.finsert {
+    margin-top: 4px;
+}
+
+.pozslika {
+    height: 200px
+}
+
+#nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: spacearound;
+    align-items: center;
+}
+
+#kprikaz {
+    width: 684px;
+    padding: 10px;
+    font-size: 30px;
+    display: block;
+    margin: 7px auto;
+    background-color: #8c6d41;
+    color: black;
+    border: 1px solid black;
+}
+
+#paginacija {
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+#korisnici {
+    margin: 0px auto;
+}
+
+#korisnici td {
+    padding: 5px;
+}
+
+#posalji {
+    margin: 5px auto;
+    display: block;
+    padding: 5px;
+    width: 73px;
+    border: 1px solid #d55900;
+    color: #d55900;
+}
+
+.pagination {
+    width: 30px;
+}
+
+.pagination a {
+    background-color: #8c6d41;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 12px;
+}
+
+#nav ul li {
+    margin-top: -17px;
+    padding: 24.5px
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+}
+
+#slajder {
+    width: 100%;
+    height: 400px;
+}
+
+.dug {
+    border: 1px solid #d55900;
+    padding: 5px;
+    color: #d55900;
+}
+
+#pslajd {
+    width: 100%;
+    /* color: rgb(209, 209, 209); */
+    text-shadow: 3px 1px #000;
+    font-size: 60px;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    padding: 5px 0px;
+    position: absolute;
+    margin-top: 184px;
+    z-index: 1;
+}
+
+#sortiranje {
+    width: 55%;
+    height: 130px;
+    background-color: #0000ff8a;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+#sort {
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+#modela {
+    width: 200px;
+    height: 30px
+}
+
+#cena {
+    width: 200px;
+    height: 30px
+}
+
+#filt {
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+#tip {
+    width: 200px;
+    height: 30px
+}
+
+#knaslov {
+    text-align: center;
+}
+
+#anketatabela {
+    float: right;
+    margin-right: 50px;
+    width: 400px;
+    margin-top: -305px
+}
+
+#anketatabela td {
+    padding: 5px
+}
+
+#popuniga {
+    text-align: center;
+}
+
+#popuniga select, #popuniga input[type="text"], #popuniga textarea, #popuniga input[type="file"] {
+    border: 1px solid black;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+#popuniga input[type="submit"] {
+    padding: 5px;
+    border: 1px solid #d55900;
+    color: #d55900;
+}
+
+#dugproizvodi {
+    width: 684px;
+    padding: 10px;
+    font-size: 30px;
+    display: block;
+    margin: 7px auto;
+    background-color: #8c6d41;
+    color: black;
+    border: 1px solid black;
+}
+
+#kbrisi {
+    color: white;
+    background-color: grey;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#kkupi {
+    color: white;
+    background-color: #ff0707;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#prikazipr {
+    margin: 5px auto;
+    display: block;
+    padding: 5px;
+    width: 73px;
+    border: 1px solid #d55900;
+    color: #d55900;
+}
+
+#prikazproizvoda {
+    margin: 0px auto
+}
+
+#dodajpr {
+    margin: 5px auto;
+    display: block;
+    padding: 5px;
+    width: 73px;
+    border: 1px solid #d55900;
+    color: #d55900;
+}
+
+#anketaodgovor {
+    float: right;
+    margin-right: 95px;
+    margin-top: -119px;
+    width: 307px;
+}
+
+#emailkk {
+    width: 352px;
+    padding: 10px;
+    margin-top: 22px;
+    margin-left: 50px;
+    border: 1px solid black;
+}
+
+#emailkk::placeholder, #naslov::placeholder, #pitanja::placeholder {
+    color: black;
+}
+
+#sadrzajj {
+    margin-top: 90px;
+    height: 300px;
+}
+
+#sub {
+    margin-left: 50px;
+    border: 1px solid #d55900;
+    padding: 5px;
+    color: #d55900;
+}
+
+#naslov {
+    width: 352px;
+    padding: 10px;
+    margin-top: 22px;
+    margin-left: 50px;
+
+    border: 1px solid black;
+}
+
+#pitanja {
+    width: 374px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+    border: 1px solid black;
+}
+
+#ksredina {
+    width: 100%;
+    height: 500px;
+    margin-top: 106px;
+}
+
+#rezultat {
+    float: right;
+    padding: 4px;
+    background-color: #424040;
+    border-color: #424040;
+    color: white
+}
+
+#glasaj {
+    padding: 4px;
+    background-color: #424040;
+    border-color: #424040;
+    color: white
+}
+
+#trazi {
+    width: 196px;
+    height: 25px
+}
+
+#slajder img {
+    width: 100%;
+    height: 480px;
+}
+
+#levo {
+    position: absolute;
+    margin-top: -220px;
+    ;
+    font-size: 40px;
+    color: red;
+    margin-left: 10px;
+}
+
+#desno {
+    position: absolute;
+    margin-top: -220px;
+    font-size: 40px;
+    color: red;
+    right: 10px;
+}
+
+#sredina {
+    width: 100%;
+}
+
+#sredina h1 {
+    text-align: center;
+    margin-top: 115px;
+}
+
+#sredina hr {
+    width: 20%;
+    margin-top: 20px;
+}
+
+#sredina1 {
+    width: 100%;
+    margin-top: 30px;
+    height: 300px;
+}
+
+#salon {
+    width: 50%;
+    justify-content: space-around
+}
+
+.tekst {
+    width: 50%;
+    float: left;
+}
+
+.oo p {
+    font-size: 20px;
+    ;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.slika img {
+    width: 600px;
+    float: right;
+    margin-right: 50px;
+}
+
+#sredina2 {
+    width: 90%;
+    margin: 55px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#azuriaj {
+    text-align: center;
+}
+
+.prvi {
+    background-color: red;
+    width: 350px;
+    height: 300px;
+}
+
+#naslovm h1 {
+    text-align: center;
+    margin-top: 54px;
+}
+
+#naslovm hr {
+    width: 20%;
+    margin-left: 500px;
+}
+
+#updateli {
+    text-align: center
+}
+
+
+.slazuriranje {
+    width: 72px;
+    margin-left: -219px;
+    /* margin-top: -12px; */
+    margin-bottom: 22px;
+}
+
+
+
+#slajder img {
+    display: none
+}
+
+#slajder .aktivna {
+    display: block
+}
+
+
+
+#bla {
+    width: 350px;
+    height: 300px;
+}
+
+#blaa {
+    width: 350px;
+    height: 300px;
+}
+
+#blaaa {
+    width: 350px;
+    height: 300px;
+}
+
+#n1 {
+    margin-left: 120px;
+}
+
+.active {
+    background-color: red
+}
+
+#sredina3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 430px;
+    background-color: #00000054;
+    margin-bottom: -101px;
+}
+
+#naslov3 h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.model {
+    width: 240px;
+    height: 411px;
+}
+
+#tprvi {
+    display: none;
+    text-align: justify;
+}
+
+#futer {
+    width: 100%;
+    height: 100px;
+    background: #8c6d41;
+    margin-top: 114px;
+}
+
+/*kontakt*/
+
+#ime {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px
+}
+
+#prezime {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px
+}
+
+#pitanje {
+    width: 401px;
+    font-size: 20px
+}
+
+#pitaj {
+    padding: 8px 13px;
+}
+
+/*registracija*/
+
+#formaceo {
+    width: 100%;
+}
+
+#formaceo img {
+    width: 100%;
+    height: 626px;
+    opacity: 0.6;
+    position: relative;
+    display: block;
+}
+
+#znak img {
+    position: absolute;
+    left: 500px;
+    top: 636px;
+    width: 360px;
+    height: 136px;
+}
+
+#formaprijava {
+    width: 100px;
+    height: 500px;
+}
+
+#formar {
+    text-align: left;
+}
+
+#formar form {
+    margin: 0 auto;
+    width: 200px;
+}
+
+#formar .formareg {
+    display: block;
+    margin: 0 auto;
+    margin-top: 7px;
+    font-size: 17px;
+    padding: 9px;
+    width: 300px;
+    border: 2px solid #f8dbc6;
+}
+
+#formar #dugme {
+    text-align: center;
+}
+
+#formar .formareg::placeholder {
+    color: black;
+}
+
+#text0 {
+    margin-left: 409px;
+    margin-top: 30px;
+    position: absolute;
+    font-size: 18px;
+}
+
+#text1 {
+    margin-left: 409px;
+    margin-top: 40px;
+    position: absolute;
+    font-size: 18px;
+}
+
+#text2 {
+    margin-left: 409px;
+    margin-top: 50px;
+    position: absolute;
+    font-size: 18px;
+}
+
+#celi {
+    width: 100%;
+    height: 500px;
+}
+
+#radiob {
+    margin: 0 auto;
+}
+
+#radiob p {
+    font-size: 18px;
+    margin-right: 10px
+}
+
+#dugmeRegistracija {
+    margin: 40px auto;
+    color: black;
+    font-size: 17px;
+    padding: 9px;
+    width: 324px;
+    text-align: center;
+    background: #d55900;
+    border: 2px solid black;
+}
+
+#dugme {
+    position: absolute;
+    display: block;
+    margin-top: 20px;
+    margin-left: 523px;
+    color: black;
+    font-size: 17px;
+    padding: 9px;
+    width: 324px;
+    background: #d55900;
+    border: 2px solid black;
+    top: 928px;
+}
+
+#ispis {
+    text-align: center;
+    margin-top: 28px;
+    display: block;
+}
+
+#ispis ul {
+    list-style-type: none;
+}
+
+#ispis ul li {
+    color: red;
+}
+
+.dugme {
+    width: 90px;
+    position: absolute;
+    padding: 7px;
+    margin-top: 7px;
+    background-color: #0000ffa1;
+    border-color: #0000ff91
+}
+
+#tt {
+    display: none;
+}
+
+.vise {
+    margin-top: 0px;
+}
+
+.model {
+    margin-top: 10px;
+}
+
+#reg {
+    width: 50px;
+    height: 50px;
+    margin-top: 9px;
+    z-index: 1;
+}
+
+#reg i {
+    font-size: 30px;
+    ;
+    color: white;
+    padding: 3px;
+}
+
+#meni {
+    width: 200px;
+    height: 112px;
+    background: #424040;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 68px;
+    right: 20px;
+}
+
+#meni ul {
+    list-style-type: none;
+}
+
+#meni ul li {
+    padding: 16px;
+    width: 168px;
+    margin-top: -1px;
+}
+
+#prvil i {
+    margin-left: 17px;
+    color: white
+}
+
+#drugil i {
+    margin-left: 36px;
+    color: white
+}
+
+#meni ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+
+/*prijava*/
+
+#formacela {
+    width: 100%;
+    
+}
+
+#prijavaf {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+}
+
+#naslovprij {
+    width: 100%;
+    text-align: center;
+    margin-top: 104px;
+    margin-bottom: 25px
+}
+
+.prvit {
+    font-size: 17px;
+    padding: 9px;
+    width: 322px;
+    display: block;
+    margin: 5px auto;
+    border: 1px solid #f8dbc6;
+}
+
+.pd {
+    display: none;
+    margin-top: 17px;
+}
+
+#prijavap {
+    color: red;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#prijavad {
+    text-align: center;
+    color: red;
+}
+
+#dugprijava2 {
+    display: block;
+    color: black;
+    margin: 3px auto;
+    font-size: 17px;
+    padding: 9px;
+    width: 345px;
+    background: #d55900;
+    border: 1px solid black;
+}
+
+#mmdugme {
+    width: 150px;
+    padding: 5px;
+    height: 40px;
+    display: none;
+}
+
+#proizvod {
+    width: 100%;
+    background-color: #000000c4;
+    ;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 563px;
+    ;
+}
+
+#opsirnije {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    height: 39px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #dd942e;
+}
+
+.limprvi img {
+    height: 200px;
+    display: block;
+    margin: 0px auto
+}
+
+#spec1 table {
+    border: 1px solid black
+}
+
+/*kontakt*/
+
+#kotntakti {
+
+    display: flex;
+    justify-content: center;
+}
+
+#dsredina {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: spacearound;
+    align-items: center;
+    margin-bottom: -101px;
+}
+
+#mapa {
+    width: 45%;
+    height: 300px;
+}
+
+#donas {
+    width: 30%;
+    height: 300px;
+}
+
+#donas h2 {
+    padding: 2px;
+}
+
+#donas p {
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+
+#donas p i {
+    font-size: 25px;
+    color: #827878;
+}
+
+#imeg {
+    color: red;
+    font-size: 20px;
+}
+
+#imeg {
+    margin-right: 10px;
+}
+
+#kforma {
+    width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px;
+    padding: 13px;
+}
+
+#kforma .kfor {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#kforma .kfor input {
+    font-size: 21px;
+    padding: 5px;
+    width: 65%;
+}
+
+#kforma .kfor textarea {
+    font-size: 21px;
+    padding: 5px;
+    width: 65%;
+    height: 100px;
+}
+
+#kforma .kfor label {
+    float: left;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.cleaner {
+    clear: both;
+}
+
+#kforma .kfor input[type='submit'] {
+    padding: 10px;
+    color: black;
+    width: 200px;
+    margin-left: -170px;
+}
+
+#kforma h2 {
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+#kontnalov {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*autro*/
+
+#sadrzaj1 {
+    width: 100%;
+    min-height: 900px;
+}
+
+#autslika {
+    display: flex;
+    justify-content: space-around;
+    align-items: flexcenter;
+    padding-bottom: 50px;
+    margin-bottom: -101px
+}
+
+#autslika img {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+#autslika p {
+    width: 70%;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+#naslov2 h1 {
+    margin-left: 633px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#ausredina {
+    margin-top: 100px
+}
+
+.moja {
+    background-color: green;
+}
+
+#ikonice {
+    width: 208px;
+    height: 15px;
+    margin: 0px auto;
+}
+
+#ikonice i {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#ikonice a {
+    color: white;
+    font-size: 30px;
+    margin-left: 18px;
+    margin-top: 10px;
+    text-size-adjust: none
+}
+
+#btnMeni {
+    display: none;
+    padding: 20px 0px;
+    background-color: #d62626;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+#specifikacije {
+    width: 86%;
+    text-align: justify
+}
+
+#opis {
+    margin-left: 10px;
+}
+
+.medNaz {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.mod {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.opis {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.limprvi {
+    flex-basis: 47%;
+    margin-top: 15px;
+}
+
+.cen {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.cena {
+    font-size: 19px;
+}
+
+#dugme1 {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #071cf3a1;
+    border: 1px solid #071cf3a1;
+}
+
+.kupi {
+    width: 100%;
+    background-color: green;
+    text-decoration: none;
+    display: flex;
+    height: 39px;
+    background-color: #8c6d41;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#kupi2 {
+    width: 104px;
+    background-color: green;
+    text-decoration: none;
+    display: flex;
+    height: 39px;
+    background-color: #ff0000bf;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: -147px;
+}
+
+#iks {
+    font-size: 36px;
+    right: 9px;
+    position: absolute;
+    color: white;
+    top: 2px
+}
+
+#naslovmed {
+    text-align: center;
+    margin-top: 120px
+}
+
+#sredpoizvod {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: spacearound;
+    align-items: center;
+}
+
+.slikapr {
+    width: 500px;
+    height: 448px;
+}
+
+#proiztabla {
+    width: 93%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-left: -150px;
+}
+
+#proiztabla tr th {
+    border-top: 2px solid white;
+    padding: 8px;
+    color: white
+}
+
+#proiztabla tr td {
+    border-top: 2px solid white;
+    padding: 8px;
+    font-weight: bold;
+    color: white
+}
+
+#proizopis {
+    width: 39%;
+    margin-top: 78px;
+}
+
+#dok {
+    margin-top: 36px;
+}
+
+#dok a {
+    margin-top: 106px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#med {
+    text-align: center;
+}
+
+@media screen and (max-width: 1025px) {
+    #sredina3 {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .model {
+        flex-basis: 45%;
+        height: 350px;
+    }
+    .vise {
+        margin-top: 0px;
+    }
+    .limprvi {
+        flex-basis: 35%;
+    }
+    .oo p {
+        font-size: 17px
+    }
+    #znak img {
+        left: 0%
+    }
+    #formar .formareg {
+        margin-left: 20px;
+    }
+    #radiob {
+        margin-left: 83px;
+    }
+    #ispis {
+        margin-left: 79px;
+    }
+    #dugme {
+        margin-left: 20px;
+    }
+    .slikapr {
+        width: 417px;
+        height: 372px;
+    }
+    #proiztabla {
+        width: 93%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        margin-left: 0px;
+    }
+    #proizopis {
+        width: 43%;
+        margin-top: 41px;
+    }
+    #ispis {
+        float: left;
+        margin-left: 91px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #formakontakt {
+        width: 50%;
+        height: 300px;
+        display: block;
+        margin: 0px auto;
+    }
+    #anketatabela {
+        float: none;
+        margin: 44px auto
+    }
+    #emailkk {
+        margin-left: 0px
+    }
+    #naslov {
+        margin-left: 0px
+    }
+    #pitanja {
+        margin-left: 0px
+    }
+    #sub {
+        margin-left: 0px
+    }
+    #anketaodgovor {
+        margin: -32px auto;
+        float: none
+    }
+    #futer {
+        margin-top: 166px
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #sortiranje {
+        width: 85%;
+    }
+    .tekst.slika {
+        display: none;
+    }
+    #sredina1 {
+        display: block;
+    }
+    .oo {
+        width: 93%;
+    }
+    .oo p {
+        font-size: 19px;
+    }
+    #naslov2 h1 {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #meni {
+        right: 0px
+    }
+    #btnMeni {
+        width: 23%;
+        margin-left: 74%;
+        display: block;
+        padding: 8px 0px;
+        background-color: #675959;
+        color: white;
+        font-size: 18px;
+        border: 1px solid white;
+    }
+    #nav ul li a {
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+    }
+    #nav ul {
+        list-style-type: none;
+        display: none;
+        z-index: 11111111111111;
+        position: absolute;
+        margin-left: -101px;
+        margin-top: 56px;
+        width: 100%;
+        /*background-color: rgb(66, 64, 64);*/
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #emailkk {
+        width: 94%
+    }
+    #naslov {
+        width: 94%
+    }
+    #pitanja {
+        width: 100%
+    }
+    #anketatabela {
+        width: 60%
+    }
+    #kprikaz {
+        width: 75%;
+        font-size: 22px
+    }
+    #dugproizvodi {
+        width: 75%;
+        font-size: 22px
+    }
+    #proizvod {
+        display: block
+    }
+    .slikapr {
+        width: 300px;
+        height: 287px;
+        display: block;
+        margin: 0px auto;
+    }
+    #proizopis {
+        display: block;
+        margin: 12px auto;
+    }
+    .limprvi {
+        flex-basis: 51%;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .pozslika {
+        height: 64px
+    }
+    #sortiranje {
+        display: block;
+        height: auto;
+    }
+    .model {
+        flex-basis: 91%;
+    }
+    #sdesno {
+        display: none
+    }
+    #slevo {
+        display: none;
+    }
+    #pslajd {
+        font-size: 41px;
+        margin-top: 119px;
+    }
+    #slajder {
+        width: 100%;
+        height: 377px;
+    }
+    #slajder img {
+        width: 100%;
+        height: 377px;
+    }
+    #donas {
+        width: 60%;
+        height: 250px;
+        margin-left: 20%;
+        margin-top: -249px;
+    }
+    #dsredina {
+        display: block;
+        margin-top: 44px;
+    }
+    #mapa {
+        width: 95%;
+        height: 215px;
+        margin: 20px auto;
+        top: 257px;
+    }
+    #kontnalov {
+        margin-top: 52;
+    }
+    #ausredina {
+        margin-top: 23px;
+    }
+    #autslika img {
+        display: block;
+        margin: 0px auto;
+    }
+    #autslika {
+        display: block;
+    }
+    #autslika p {
+        width: 95%;
+        font-size: 19px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #anketatabela {
+        width: 99%;
+    }
+    #anketaodgovor {
+        margin: -42px auto;
+        width: 99%
+    }
+    #formakontakt {
+        width: 78%
+    }
+    #btnMeni {
+        width: 27%;
+        margin-left: 70%;
+    }
+    .oo {
+        width: 100%;
+        margin-left: -20px;
+    }
+    #slajder img {
+        height: 280px;
+    }
+    #slajder {
+        height: 280px;
+    }
+    #pslajd {
+        font-size: 33px;
+        margin-top: 88px;
+    }
+    .gallery img {
+        width: 297px;
+        height: auto;
+    }
+    #znak img {
+        top: 442px
+    }
+    #dugme {
+        top: 931px;
+        width: 84%
+    }
+    #formar .formareg {
+        width: 84%;
+    }
+    #naslovprij {
+        margin-top: 39px;
+    }
+    .prvit {
+        font-size: 17px;
+        padding: 9px;
+        width: 84%;
+        margin-left: 20px;
+    }
+    #dugprijava2 {
+        width: 90%;
+        margin-left: 20px;
+    }
+    #dugprijava {
+        margin-left: 20px;
+        width: 91%;
+    }
+    .slikapr {
+        width: 215px;
+        height: 200px;
+    }
+    #proizopis {
+        width: 91%;
+    }
+    #ispis {
+        margin-left: 60px
+    }
+    #dugme {
+        top: 744px;
+    }
+}
